@@ -1,23 +1,24 @@
 #!/bin/bash
 # Make sure you do gradle jar before running this!
+test -z "$JAVA_HOME" && exit 100
 
-java -classpath $PWD/build/libs/NPB3.0-JAV.jar NPB3_0_JAV.MG -serial CLASS=W
-java -classpath $PWD/build/libs/NPB3.0-JAV.jar NPB3_0_JAV.MG -np2 CLASS=W
+$JAVA_HOME/bin/java -classpath $PWD/build/libs/NPB3.0-JAV.jar NPB3_0_JAV.MG -serial CLASS=W
+$JAVA_HOME/bin/java -classpath $PWD/build/libs/NPB3.0-JAV.jar NPB3_0_JAV.MG -np2 CLASS=W
 
-java -classpath $PWD/build/libs/NPB3.0-JAV.jar -mx200M NPB3_0_JAV.CG -serial CLASS=W
-java -classpath $PWD/build/libs/NPB3.0-JAV.jar -mx200M NPB3_0_JAV.CG -np2 CLASS=W
+$JAVA_HOME/bin/java -classpath $PWD/build/libs/NPB3.0-JAV.jar -mx200M NPB3_0_JAV.CG -serial CLASS=W
+$JAVA_HOME/bin/java -classpath $PWD/build/libs/NPB3.0-JAV.jar -mx200M NPB3_0_JAV.CG -np2 CLASS=W
 
-java -classpath $PWD/build/libs/NPB3.0-JAV.jar NPB3_0_JAV.BT -serial CLASS=W
-java -classpath $PWD/build/libs/NPB3.0-JAV.jar NPB3_0_JAV.BT -np2 CLASS=W
+$JAVA_HOME/bin/java -classpath $PWD/build/libs/NPB3.0-JAV.jar NPB3_0_JAV.BT -serial CLASS=W
+$JAVA_HOME/bin/java -classpath $PWD/build/libs/NPB3.0-JAV.jar NPB3_0_JAV.BT -np2 CLASS=W
 
-java -classpath $PWD/build/libs/NPB3.0-JAV.jar NPB3_0_JAV.SP -serial CLASS=W
-java -classpath $PWD/build/libs/NPB3.0-JAV.jar NPB3_0_JAV.SP -np2 CLASS=W
+$JAVA_HOME/bin/java -classpath $PWD/build/libs/NPB3.0-JAV.jar NPB3_0_JAV.SP -serial CLASS=W
+$JAVA_HOME/bin/java -classpath $PWD/build/libs/NPB3.0-JAV.jar NPB3_0_JAV.SP -np2 CLASS=W
 
-java -classpath $PWD/build/libs/NPB3.0-JAV.jar NPB3_0_JAV.LU -serial CLASS=W
-java -classpath $PWD/build/libs/NPB3.0-JAV.jar NPB3_0_JAV.LU -np2 CLASS=W
+$JAVA_HOME/bin/java -classpath $PWD/build/libs/NPB3.0-JAV.jar NPB3_0_JAV.LU -serial CLASS=W
+$JAVA_HOME/bin/java -classpath $PWD/build/libs/NPB3.0-JAV.jar NPB3_0_JAV.LU -np2 CLASS=W
 
-java -classpath $PWD/build/libs/NPB3.0-JAV.jar -mx200M NPB3_0_JAV.FT -serial CLASS=W
-java -classpath $PWD/build/libs/NPB3.0-JAV.jar -mx200M NPB3_0_JAV.FT -np2 CLASS=W
+$JAVA_HOME/bin/java -classpath $PWD/build/libs/NPB3.0-JAV.jar -mx200M NPB3_0_JAV.FT -serial CLASS=W
+$JAVA_HOME/bin/java -classpath $PWD/build/libs/NPB3.0-JAV.jar -mx200M NPB3_0_JAV.FT -np2 CLASS=W
 
-java -classpath $PWD/build/libs/NPB3.0-JAV.jar NPB3_0_JAV.IS -serial CLASS=W
-java -classpath $PWD/build/libs/NPB3.0-JAV.jar NPB3_0_JAV.IS -np2 CLASS=W
+$JAVA_HOME/bin/java -classpath $PWD/build/libs/NPB3.0-JAV.jar NPB3_0_JAV.IS -serial CLASS=W
+$JAVA_HOME/bin/java -classpath $PWD/build/libs/NPB3.0-JAV.jar NPB3_0_JAV.IS -np2 CLASS=W

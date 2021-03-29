@@ -10,9 +10,9 @@ MG.W: Verification Successful
 * Class             = W                                        * 
 * Size              = 64 X 64 X 64                             * 
 * Iterations        = 40                                       * 
-* Time in seconds   = 0.342                                    * 
+* Time in seconds   = 0.332                                    * 
 * ACCTime           = 0.000                                    * 
-* Mops total        = 1950.265                                 * 
+* Mops total        = 2009.008                                 * 
 * Operation type    = floating point                           * 
 * Verification      = Successful                               * 
 *                                                              *
@@ -24,7 +24,7 @@ MG.W: Verification Successful
  Multithreaded Version MG.W np=2
  No input file mg.input, Using compiled defaults
  Size:  64x64x64 Iterations:   40
- Initialization time: 0.154 seconds
+ Initialization time: 0.178 seconds
  L2 Norm is 2.4402111396896382E-18
  Deviation is   -6.370292470036194E-20
 MG.W: Verification Successful
@@ -32,9 +32,9 @@ MG.W: Verification Successful
 * Class             = W                                        * 
 * Size              = 64 X 64 X 64                             * 
 * Iterations        = 40                                       * 
-* Time in seconds   = 0.344                                    * 
+* Time in seconds   = 0.429                                    * 
 * ACCTime           = 0.000                                    * 
-* Mops total        = 1938.927                                 * 
+* Mops total        = 1554.757                                 * 
 * Operation type    = floating point                           * 
 * Verification      = Successful                               * 
 * Threads requested = 2                                        * 
@@ -68,9 +68,9 @@ CG.W: Verification Successful
 * Class             = W                                        * 
 * Size              = 7000                                     * 
 * Iterations        = 15                                       * 
-* Time in seconds   = 0.301                                    * 
+* Time in seconds   = 0.307                                    * 
 * ACCTime           = 0.000                                    * 
-* Mops total        = 1397.442                                 * 
+* Mops total        = 1370.130                                 * 
 * Operation type    = floating point                           * 
 * Verification      = Successful                               * 
 *                                                              *
@@ -103,9 +103,9 @@ CG.W: Verification Successful
 * Class             = W                                        * 
 * Size              = 7000                                     * 
 * Iterations        = 15                                       * 
-* Time in seconds   = 0.376                                    * 
+* Time in seconds   = 0.332                                    * 
 * ACCTime           = 0.000                                    * 
-* Mops total        = 1118.697                                 * 
+* Mops total        = 1266.958                                 * 
 * Operation type    = floating point                           * 
 * Verification      = Successful                               * 
 * Threads requested = 2                                        * 
@@ -149,9 +149,9 @@ BT.W: Verification Successful
 * Class             = W                                        * 
 * Size              = 24 X 24 X 24                             * 
 * Iterations        = 200                                      * 
-* Time in seconds   = 29.343                                   * 
+* Time in seconds   = 28.560                                   * 
 * ACCTime           = 0.000                                    * 
-* Mops total        = 263.053                                  * 
+* Mops total        = 270.265                                  * 
 * Operation type    = floating point                           * 
 * Verification      = Successful                               * 
 *                                                              *
@@ -194,9 +194,9 @@ BT.W: Verification Successful
 * Class             = W                                        * 
 * Size              = 24 X 24 X 24                             * 
 * Iterations        = 200                                      * 
-* Time in seconds   = 18.030                                   * 
+* Time in seconds   = 16.174                                   * 
 * ACCTime           = 0.000                                    * 
-* Mops total        = 428.107                                  * 
+* Mops total        = 477.233                                  * 
 * Operation type    = floating point                           * 
 * Verification      = Successful                               * 
 * Threads requested = 2                                        * 
@@ -250,9 +250,9 @@ SP.W: Verification Successful
 * Class             = W                                        * 
 * Size              = 36 X 36 X 36                             * 
 * Iterations        = 400                                      * 
-* Time in seconds   = 200.760                                  * 
+* Time in seconds   = 200.881                                  * 
 * ACCTime           = 0.000                                    * 
-* Mops total        = 70.603                                   * 
+* Mops total        = 70.561                                   * 
 * Operation type    = floating point                           * 
 * Verification      = Successful                               * 
 *                                                              *
@@ -305,9 +305,9 @@ SP.W: Verification Successful
 * Class             = W                                        * 
 * Size              = 36 X 36 X 36                             * 
 * Iterations        = 400                                      * 
-* Time in seconds   = 113.028                                  * 
+* Time in seconds   = 109.909                                  * 
 * ACCTime           = 0.000                                    * 
-* Mops total        = 125.406                                  * 
+* Mops total        = 128.964                                  * 
 * Operation type    = floating point                           * 
 * Verification      = Successful                               * 
 * Threads requested = 2                                        * 
@@ -356,9 +356,9 @@ LU.W: Verification Successful
 * Class             = W                                        * 
 * Size              = 33 X 33 X 33                             * 
 * Iterations        = 300                                      * 
-* Time in seconds   = 339.701                                  * 
+* Time in seconds   = 335.703                                  * 
 * ACCTime           = 0.000                                    * 
-* Mops total        = 53.168                                   * 
+* Mops total        = 53.801                                   * 
 * Operation type    = floating point                           * 
 * Verification      = Successful                               * 
 *                                                              *
@@ -406,9 +406,9 @@ LU.W: Verification Successful
 * Class             = W                                        * 
 * Size              = 33 X 33 X 33                             * 
 * Iterations        = 300                                      * 
-* Time in seconds   = 223.502                                  * 
+* Time in seconds   = 213.726                                  * 
 * ACCTime           = 0.000                                    * 
-* Mops total        = 80.810                                   * 
+* Mops total        = 84.506                                   * 
 * Operation type    = floating point                           * 
 * Verification      = Successful                               * 
 * Threads requested = 2                                        * 
@@ -425,9 +425,9 @@ FT.W: Verification Successful
 * Class             = W                                        * 
 * Size              = 128 X 128 X 32                           * 
 * Iterations        = 6                                        * 
-* Time in seconds   = 0.362                                    * 
+* Time in seconds   = 0.330                                    * 
 * ACCTime           = 0.000                                    * 
-* Mops total        = 1029.483                                 * 
+* Mops total        = 1129.311                                 * 
 * Operation type    = floating point                           * 
 * Verification      = Successful                               * 
 *                                                              *
@@ -443,9 +443,9 @@ FT.W: Verification Successful
 * Class             = W                                        * 
 * Size              = 128 X 128 X 32                           * 
 * Iterations        = 6                                        * 
-* Time in seconds   = 0.435                                    * 
+* Time in seconds   = 0.432                                    * 
 * ACCTime           = 0.000                                    * 
-* Mops total        = 856.719                                  * 
+* Mops total        = 862.668                                  * 
 * Operation type    = floating point                           * 
 * Verification      = Successful                               * 
 * Threads requested = 2                                        * 
@@ -474,9 +474,9 @@ IS.W: Verification Successful
 * Class             = W                                        * 
 * Size              = 1048576                                  * 
 * Iterations        = 10                                       * 
-* Time in seconds   = 0.037                                    * 
+* Time in seconds   = 0.036                                    * 
 * ACCTime           = 0.000                                    * 
-* Mops total        = 283.402                                  * 
+* Mops total        = 291.274                                  * 
 * Operation type    = keys ranked                              * 
 * Verification      = Successful                               * 
 *                                                              *
@@ -504,9 +504,9 @@ IS.W: Verification Successful
 * Class             = W                                        * 
 * Size              = 1048576                                  * 
 * Iterations        = 10                                       * 
-* Time in seconds   = 0.087                                    * 
+* Time in seconds   = 0.076                                    * 
 * ACCTime           = 0.000                                    * 
-* Mops total        = 120.527                                  * 
+* Mops total        = 137.972                                  * 
 * Operation type    = keys ranked                              * 
 * Verification      = Successful                               * 
 * Threads requested = 2                                        * 
