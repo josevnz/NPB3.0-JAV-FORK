@@ -1,1 +1,517 @@
+ NAS Parallel Benchmarks Java version (NPB3_0_JAV)
+ Serial Version MG.W
+ No input file mg.input, Using compiled defaults
+ Size:  64x64x64 Iterations:   40
+ Initialization time: 0.141 seconds
+ L2 Norm is 2.4402111396896382E-18
+ Deviation is   -6.370292470036194E-20
+MG.W: Verification Successful
+***** NAS Parallel Benchmarks Java version (NPB3_0_JAV) MG ***** 
+* Class             = W                                        * 
+* Size              = 64 X 64 X 64                             * 
+* Iterations        = 40                                       * 
+* Time in seconds   = 0.346                                    * 
+* ACCTime           = 0.000                                    * 
+* Mops total        = 1927.719                                 * 
+* Operation type    = floating point                           * 
+* Verification      = Successful                               * 
+*                                                              *
+* Please send all errors/feedbacks to:                         * 
+* NPB Working Team                                             * 
+* npb@nas.nasa.gov                                             * 
+**************************************************************** 
+ NAS Parallel Benchmarks Java version (NPB3_0_JAV)
+ Multithreaded Version MG.W np=2
+ No input file mg.input, Using compiled defaults
+ Size:  64x64x64 Iterations:   40
+ Initialization time: 0.152 seconds
+ L2 Norm is 2.4402111396896382E-18
+ Deviation is   -6.370292470036194E-20
+MG.W: Verification Successful
+***** NAS Parallel Benchmarks Java version (NPB3_0_JAV) MG ***** 
+* Class             = W                                        * 
+* Size              = 64 X 64 X 64                             * 
+* Iterations        = 40                                       * 
+* Time in seconds   = 0.524                                    * 
+* ACCTime           = 0.000                                    * 
+* Mops total        = 1272.883                                 * 
+* Operation type    = floating point                           * 
+* Verification      = Successful                               * 
+* Threads requested = 2                                        * 
+*                                                              *
+* Please send all errors/feedbacks to:                         * 
+* NPB Working Team                                             * 
+* npb@nas.nasa.gov                                             * 
+**************************************************************** 
+ NAS Parallel Benchmarks Java version (NPB3_0_JAV)
+ Serial Version CG.W
+ Size: 7000 Iterations: 15
+    1       1.7557786639078633E-13 11.999700372738094
+    2       2.281029984908209E-15 10.345727566405788
+    3       2.2992981298007646E-15 10.361788013796254
+    4       2.2590422396928622E-15 10.362541628496516
+    5       2.1914043413048198E-15 10.362590585446691
+    6       2.26076623307409E-15 10.36259464670868
+    7       2.1594994235039263E-15 10.3625950398342
+    8       2.168219051646323E-15 10.36259508172692
+    9       2.1913695708396545E-15 10.362595086481507
+    10       2.1362342860225673E-15 10.362595087045165
+    11       2.1579356072334306E-15 10.362595087114116
+    12       2.0732974710446716E-15 10.36259508712274
+    13       2.0860700359087642E-15 10.36259508712384
+    14       2.056598264897626E-15 10.362595087123983
+    15       2.045646835960055E-15 10.362595087124008
+ Zeta is   10.362595087124008
+ Deviation is   8.881784197001252E-15
+CG.W: Verification Successful
+***** NAS Parallel Benchmarks Java version (NPB3_0_JAV) CG ***** 
+* Class             = W                                        * 
+* Size              = 7000                                     * 
+* Iterations        = 15                                       * 
+* Time in seconds   = 0.285                                    * 
+* ACCTime           = 0.000                                    * 
+* Mops total        = 1475.895                                 * 
+* Operation type    = floating point                           * 
+* Verification      = Successful                               * 
+*                                                              *
+* Please send all errors/feedbacks to:                         * 
+* NPB Working Team                                             * 
+* npb@nas.nasa.gov                                             * 
+**************************************************************** 
+ NAS Parallel Benchmarks Java version (NPB3_0_JAV)
+ Multithreaded Version CG.W np=2
+ Size: 7000 Iterations: 15
+    1       1.767221540747284E-13 11.999700372738094
+    2       2.336905207547257E-15 10.345727566405788
+    3       2.2668260250794723E-15 10.361788013796254
+    4       2.2368370993003253E-15 10.362541628496516
+    5       2.249810839636418E-15 10.362590585446693
+    6       2.2341961464807714E-15 10.36259464670868
+    7       2.1941551457208893E-15 10.362595039834199
+    8       2.1696589555217566E-15 10.36259508172692
+    9       2.2317445080435384E-15 10.362595086481507
+    10       2.1543366081304715E-15 10.362595087045165
+    11       2.162104023659788E-15 10.362595087114116
+    12       2.0575011764572614E-15 10.36259508712274
+    13       2.1133504245312607E-15 10.36259508712384
+    14       2.0897772488603065E-15 10.362595087123983
+    15       2.0408184069007467E-15 10.362595087124008
+ Zeta is   10.362595087124008
+ Deviation is   8.881784197001252E-15
+CG.W: Verification Successful
+***** NAS Parallel Benchmarks Java version (NPB3_0_JAV) CG ***** 
+* Class             = W                                        * 
+* Size              = 7000                                     * 
+* Iterations        = 15                                       * 
+* Time in seconds   = 0.338                                    * 
+* ACCTime           = 0.000                                    * 
+* Mops total        = 1244.467                                 * 
+* Operation type    = floating point                           * 
+* Verification      = Successful                               * 
+* Threads requested = 2                                        * 
+*                                                              *
+* Please send all errors/feedbacks to:                         * 
+* NPB Working Team                                             * 
+* npb@nas.nasa.gov                                             * 
+**************************************************************** 
+ NAS Parallel Benchmarks Java version (NPB3_0_JAV)
+ Serial Version BT.W
+No input file inputbt.data, Using compiled defaults
+Size: 24 X 24 X 24
+Iterations: 200 dt: 8.0E-4
+Time step 1
+Time step 20
+Time step 40
+Time step 60
+Time step 80
+Time step 100
+Time step 120
+Time step 140
+Time step 160
+Time step 180
+Time step 200
+Verification being performed for class W
+accuracy setting for epsilon = 1.0000000000000005E-8
+Comparison of RMS-norms of residual
+0. 112.55904093440385 112.5590409344 3.421441401641125E-14
+1. 11.800075957307538 11.80007595731 2.086453162094732E-13
+2. 27.1032976784572 27.10329767846 1.0329143014651284E-13
+3. 24.69174937668933 24.69174937669 2.7193815839034172E-14
+4. 263.84278743167715 263.8427874317 8.660859978202052E-14
+Comparison of RMS-norms of solution error
+0. 4.41965573600796 4.419655736008 9.043244830332932E-15
+1. 0.463853126000172 0.4638531260002 6.043536154108642E-14
+2. 1.0115517499668665 1.011551749967 1.3192484473908264E-13
+3. 0.9235878729943866 0.9235878729944 1.4545122332984385E-14
+4. 10.180458377175366 10.18045837718 4.552363776059187E-13
+BT.W: Verification Successful
+***** NAS Parallel Benchmarks Java version (NPB3_0_JAV) BT ***** 
+* Class             = W                                        * 
+* Size              = 24 X 24 X 24                             * 
+* Iterations        = 200                                      * 
+* Time in seconds   = 27.723                                   * 
+* ACCTime           = 0.000                                    * 
+* Mops total        = 278.425                                  * 
+* Operation type    = floating point                           * 
+* Verification      = Successful                               * 
+*                                                              *
+* Please send all errors/feedbacks to:                         * 
+* NPB Working Team                                             * 
+* npb@nas.nasa.gov                                             * 
+**************************************************************** 
+ NAS Parallel Benchmarks Java version (NPB3_0_JAV)
+ Multithreaded Version BT.W np=2
+No input file inputbt.data, Using compiled defaults
+Size: 24 X 24 X 24
+Iterations: 200 dt: 8.0E-4
+Time step 1
+Time step 20
+Time step 40
+Time step 60
+Time step 80
+Time step 100
+Time step 120
+Time step 140
+Time step 160
+Time step 180
+Time step 200
+Verification being performed for class W
+accuracy setting for epsilon = 1.0000000000000005E-8
+Comparison of RMS-norms of residual
+0. 112.55904093440385 112.5590409344 3.421441401641125E-14
+1. 11.800075957307538 11.80007595731 2.086453162094732E-13
+2. 27.1032976784572 27.10329767846 1.0329143014651284E-13
+3. 24.69174937668933 24.69174937669 2.7193815839034172E-14
+4. 263.84278743167715 263.8427874317 8.660859978202052E-14
+Comparison of RMS-norms of solution error
+0. 4.41965573600796 4.419655736008 9.043244830332932E-15
+1. 0.463853126000172 0.4638531260002 6.043536154108642E-14
+2. 1.0115517499668665 1.011551749967 1.3192484473908264E-13
+3. 0.9235878729943866 0.9235878729944 1.4545122332984385E-14
+4. 10.180458377175366 10.18045837718 4.552363776059187E-13
+BT.W: Verification Successful
+***** NAS Parallel Benchmarks Java version (NPB3_0_JAV) BT ***** 
+* Class             = W                                        * 
+* Size              = 24 X 24 X 24                             * 
+* Iterations        = 200                                      * 
+* Time in seconds   = 20.266                                   * 
+* ACCTime           = 0.000                                    * 
+* Mops total        = 380.873                                  * 
+* Operation type    = floating point                           * 
+* Verification      = Successful                               * 
+* Threads requested = 2                                        * 
+*                                                              *
+* Please send all errors/feedbacks to:                         * 
+* NPB Working Team                                             * 
+* npb@nas.nasa.gov                                             * 
+**************************************************************** 
+ NAS Parallel Benchmarks Java version (NPB3_0_JAV)
+ Serial Version SP.W
+No input file inputsp.data,Using compiled defaults
+Size: 36 X 36 X 36
+Iterations: 400 dt: 0.0015
+Time step 1
+Time step 20
+Time step 40
+Time step 60
+Time step 80
+Time step 100
+Time step 120
+Time step 140
+Time step 160
+Time step 180
+Time step 200
+Time step 220
+Time step 240
+Time step 260
+Time step 280
+Time step 300
+Time step 320
+Time step 340
+Time step 360
+Time step 380
+Time step 400
+ Verification being performed for class W
+ Accuracy setting for epsilon = 1.0E-8
+ Comparison of RMS-norms of residual
+0. 0.0018932537335839097 0.001893253733584 4.7760350121754663E-14
+1. 1.717075447776055E-4 1.717075447775E-4 6.143752828073925E-13
+2. 2.7781533509360027E-4 2.778153350936E-4 9.756500411687327E-16
+3. 2.8874754099857326E-4 2.887475409984E-4 6.000241822462608E-13
+4. 0.0031436111612418694 0.003143611161242 4.15248371607387E-14
+ Comparison of RMS-norms of solution error
+0. 7.542088599533548E-5 7.542088599534E-5 5.983742412214244E-14
+1. 6.51285225308588E-6 6.512852253086E-6 1.846789606706013E-14
+2. 1.0490922856886561E-5 1.049092285688E-5 6.254089653446452E-13
+3. 1.128838671535195E-5 1.128838671535E-5 1.7273237476245896E-13
+4. 1.2128456397729423E-4 1.212845639773E-4 4.7601907276229104E-14
+SP.W: Verification Successful
+***** NAS Parallel Benchmarks Java version (NPB3_0_JAV) SP ***** 
+* Class             = W                                        * 
+* Size              = 36 X 36 X 36                             * 
+* Iterations        = 400                                      * 
+* Time in seconds   = 192.411                                  * 
+* ACCTime           = 0.000                                    * 
+* Mops total        = 73.667                                   * 
+* Operation type    = floating point                           * 
+* Verification      = Successful                               * 
+*                                                              *
+* Please send all errors/feedbacks to:                         * 
+* NPB Working Team                                             * 
+* npb@nas.nasa.gov                                             * 
+**************************************************************** 
+ NAS Parallel Benchmarks Java version (NPB3_0_JAV)
+ Multithreaded Version SP.W np=2
+No input file inputsp.data,Using compiled defaults
+Size: 36 X 36 X 36
+Iterations: 400 dt: 0.0015
+Time step 1
+Time step 20
+Time step 40
+Time step 60
+Time step 80
+Time step 100
+Time step 120
+Time step 140
+Time step 160
+Time step 180
+Time step 200
+Time step 220
+Time step 240
+Time step 260
+Time step 280
+Time step 300
+Time step 320
+Time step 340
+Time step 360
+Time step 380
+Time step 400
+ Verification being performed for class W
+ Accuracy setting for epsilon = 1.0E-8
+ Comparison of RMS-norms of residual
+0. 0.0018932537335839097 0.001893253733584 4.7760350121754663E-14
+1. 1.717075447776055E-4 1.717075447775E-4 6.143752828073925E-13
+2. 2.7781533509360027E-4 2.778153350936E-4 9.756500411687327E-16
+3. 2.8874754099857326E-4 2.887475409984E-4 6.000241822462608E-13
+4. 0.0031436111612418694 0.003143611161242 4.15248371607387E-14
+ Comparison of RMS-norms of solution error
+0. 7.542088599533548E-5 7.542088599534E-5 5.983742412214244E-14
+1. 6.51285225308588E-6 6.512852253086E-6 1.846789606706013E-14
+2. 1.0490922856886561E-5 1.049092285688E-5 6.254089653446452E-13
+3. 1.128838671535195E-5 1.128838671535E-5 1.7273237476245896E-13
+4. 1.2128456397729423E-4 1.212845639773E-4 4.7601907276229104E-14
+SP.W: Verification Successful
+***** NAS Parallel Benchmarks Java version (NPB3_0_JAV) SP ***** 
+* Class             = W                                        * 
+* Size              = 36 X 36 X 36                             * 
+* Iterations        = 400                                      * 
+* Time in seconds   = 108.669                                  * 
+* ACCTime           = 0.000                                    * 
+* Mops total        = 130.436                                  * 
+* Operation type    = floating point                           * 
+* Verification      = Successful                               * 
+* Threads requested = 2                                        * 
+*                                                              *
+* Please send all errors/feedbacks to:                         * 
+* NPB Working Team                                             * 
+* npb@nas.nasa.gov                                             * 
+**************************************************************** 
+ NAS Parallel Benchmarks Java version (NPB3_0_JAV)
+ Serial Version LU.W
+LU: Iterations=300 dt=0.0015
+ Time step 1
+ Time step 20
+ Time step 40
+ Time step 60
+ Time step 80
+ Time step 100
+ Time step 120
+ Time step 140
+ Time step 160
+ Time step 180
+ Time step 200
+ Time step 220
+ Time step 240
+ Time step 260
+ Time step 280
+ Time step 300
+ Verification being performed for class W
+ Accuracy setting for epsilon = 1.0E-8
+ Comparison of RMS-norms of residual
+0. 12.365116381921874 12.36511638192 1.5155995363759521E-13
+1. 1.3172284777985026 1.317228477799 3.7759578039427026E-13
+2. 2.55012071309476 2.550120713095 9.421211368355084E-14
+3. 2.326187750252424 2.326187750252 1.8231769785601602E-13
+4. 28.26799444188568 28.26799444189 1.528265417733175E-13
+ Comparison of RMS-norms of solution error
+0. 0.4867877144216251 0.4867877144216 5.15441117620268E-14
+1. 0.0506465288098153 0.05064652880982 9.275327023072027E-14
+2. 0.09281818101959848 0.0928181810196 1.644674181383962E-14
+3. 0.08570126542732918 0.08570126542733 9.553995224905305E-15
+4. 1.0842774177922812 1.084277417792 2.592588070380854E-13
+ Comparison of surface integral
+11.613993110230368 11.61399311023 3.1660589279320654E-14
+LU.W: Verification Successful
+***** NAS Parallel Benchmarks Java version (NPB3_0_JAV) LU ***** 
+* Class             = W                                        * 
+* Size              = 33 X 33 X 33                             * 
+* Iterations        = 300                                      * 
+* Time in seconds   = 334.255                                  * 
+* ACCTime           = 0.000                                    * 
+* Mops total        = 54.034                                   * 
+* Operation type    = floating point                           * 
+* Verification      = Successful                               * 
+*                                                              *
+* Please send all errors/feedbacks to:                         * 
+* NPB Working Team                                             * 
+* npb@nas.nasa.gov                                             * 
+**************************************************************** 
+ NAS Parallel Benchmarks Java version (NPB3_0_JAV)
+ Multithreaded Version LU.W np=2
+LU: Iterations=300 dt=0.0015
+ Time step 1
+ Time step 20
+ Time step 40
+ Time step 60
+ Time step 80
+ Time step 100
+ Time step 120
+ Time step 140
+ Time step 160
+ Time step 180
+ Time step 200
+ Time step 220
+ Time step 240
+ Time step 260
+ Time step 280
+ Time step 300
+ Verification being performed for class W
+ Accuracy setting for epsilon = 1.0E-8
+ Comparison of RMS-norms of residual
+0. 12.365116381921874 12.36511638192 1.5155995363759521E-13
+1. 1.3172284777985026 1.317228477799 3.7759578039427026E-13
+2. 2.55012071309476 2.550120713095 9.421211368355084E-14
+3. 2.326187750252424 2.326187750252 1.8231769785601602E-13
+4. 28.26799444188568 28.26799444189 1.528265417733175E-13
+ Comparison of RMS-norms of solution error
+0. 0.4867877144216251 0.4867877144216 5.15441117620268E-14
+1. 0.0506465288098153 0.05064652880982 9.275327023072027E-14
+2. 0.09281818101959848 0.0928181810196 1.644674181383962E-14
+3. 0.08570126542732918 0.08570126542733 9.553995224905305E-15
+4. 1.0842774177922812 1.084277417792 2.592588070380854E-13
+ Comparison of surface integral
+11.613993110230368 11.61399311023 3.1660589279320654E-14
+LU.W: Verification Successful
+***** NAS Parallel Benchmarks Java version (NPB3_0_JAV) LU ***** 
+* Class             = W                                        * 
+* Size              = 33 X 33 X 33                             * 
+* Iterations        = 300                                      * 
+* Time in seconds   = 209.701                                  * 
+* ACCTime           = 0.000                                    * 
+* Mops total        = 86.128                                   * 
+* Operation type    = floating point                           * 
+* Verification      = Successful                               * 
+* Threads requested = 2                                        * 
+*                                                              *
+* Please send all errors/feedbacks to:                         * 
+* NPB Working Team                                             * 
+* npb@nas.nasa.gov                                             * 
+**************************************************************** 
+ NAS Parallel Benchmarks Java version (NPB3_0_JAV)
+ Serial Version FT.W
+ Size = 128 X 128 X 32 niter = 6
+FT.W: Verification Successful
+***** NAS Parallel Benchmarks Java version (NPB3_0_JAV) FT ***** 
+* Class             = W                                        * 
+* Size              = 128 X 128 X 32                           * 
+* Iterations        = 6                                        * 
+* Time in seconds   = 0.377                                    * 
+* ACCTime           = 0.000                                    * 
+* Mops total        = 988.522                                  * 
+* Operation type    = floating point                           * 
+* Verification      = Successful                               * 
+*                                                              *
+* Please send all errors/feedbacks to:                         * 
+* NPB Working Team                                             * 
+* npb@nas.nasa.gov                                             * 
+**************************************************************** 
+ NAS Parallel Benchmarks Java version (NPB3_0_JAV)
+ Multithreaded Version FT.W np=2
+ Size = 128 X 128 X 32 niter = 6
+FT.W: Verification Successful
+***** NAS Parallel Benchmarks Java version (NPB3_0_JAV) FT ***** 
+* Class             = W                                        * 
+* Size              = 128 X 128 X 32                           * 
+* Iterations        = 6                                        * 
+* Time in seconds   = 0.410                                    * 
+* ACCTime           = 0.000                                    * 
+* Mops total        = 908.958                                  * 
+* Operation type    = floating point                           * 
+* Verification      = Successful                               * 
+* Threads requested = 2                                        * 
+*                                                              *
+* Please send all errors/feedbacks to:                         * 
+* NPB Working Team                                             * 
+* npb@nas.nasa.gov                                             * 
+**************************************************************** 
+ NAS Parallel Benchmarks Java version (NPB3_0_JAV)
+ Serial Version IS.W
+ Size:  1048576 Iterations:   10
 
+     iteration#
+	  1
+	  2
+	  3
+	  4
+	  5
+	  6
+	  7
+	  8
+	  9
+	  10
+IS.W: Verification Successful
+***** NAS Parallel Benchmarks Java version (NPB3_0_JAV) IS ***** 
+* Class             = W                                        * 
+* Size              = 1048576                                  * 
+* Iterations        = 10                                       * 
+* Time in seconds   = 0.040                                    * 
+* ACCTime           = 0.000                                    * 
+* Mops total        = 262.147                                  * 
+* Operation type    = keys ranked                              * 
+* Verification      = Successful                               * 
+*                                                              *
+* Please send all errors/feedbacks to:                         * 
+* NPB Working Team                                             * 
+* npb@nas.nasa.gov                                             * 
+**************************************************************** 
+ NAS Parallel Benchmarks Java version (NPB3_0_JAV)
+ Multithreaded Version IS.W np=2
+ Size:  1048576 Iterations:   10
+
+     iteration#
+	  1
+	  2
+	  3
+	  4
+	  5
+	  6
+	  7
+	  8
+	  9
+	  10
+IS.W: Verification Successful
+***** NAS Parallel Benchmarks Java version (NPB3_0_JAV) IS ***** 
+* Class             = W                                        * 
+* Size              = 1048576                                  * 
+* Iterations        = 10                                       * 
+* Time in seconds   = 0.052                                    * 
+* ACCTime           = 0.000                                    * 
+* Mops total        = 201.651                                  * 
+* Operation type    = keys ranked                              * 
+* Verification      = Successful                               * 
+* Threads requested = 2                                        * 
+*                                                              *
+* Please send all errors/feedbacks to:                         * 
+* NPB Working Team                                             * 
+* npb@nas.nasa.gov                                             * 
+**************************************************************** 
