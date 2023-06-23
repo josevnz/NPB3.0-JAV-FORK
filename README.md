@@ -4,6 +4,8 @@ This is a fork of the original [NASA NAS Parallel Benchmarks](https://www.nas.na
 
 Please read the following file: NPB3.0-JAV/README.md
 
+I do not plan to make updates on this code, nor the build. Just used it for some of my tutorials.
+
 # Author
 
 * José Vicente Núñez Zuleta
